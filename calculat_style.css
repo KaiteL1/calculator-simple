@@ -1,0 +1,33 @@
+body {
+     font-size: 2em;
+}
+.input {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 303px;
+    height: 20px;
+    padding: 20px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+.button, .button2, .large_button{
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+    margin: 3px;
+    text-align: center;
+}
+.button:hover, .button2:hover, .large_button:hover {
+    color: black;
+    background-color: aliceblue;
+}
+.button{
+    width: 71px;
+}
+.button2{
+    width: 100px;
+}
+.large_button{
+    width: 150px;
+}
